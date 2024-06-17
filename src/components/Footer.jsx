@@ -4,14 +4,14 @@ import Image from 'next/image';
 
 import React from 'react';
 import { RiInstagramFill } from "react-icons/ri";
-import { FaFacebook, FaTiktok } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
 import { FaYoutube } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 w-full">
+    <footer className="w-full">
         <div className="bg-gray-200 py-12">
             <div className="px-8 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 md:gap-4">
             <div className="mb-6">

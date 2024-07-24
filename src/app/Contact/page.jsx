@@ -67,7 +67,7 @@ const Contact = () => {
               <Map
                 mapContainerStyle={mapContainerStyle}
                 center={center}
-                zoom={15}
+                defaultZoom={15}
               >
                 <Marker position={center} />
               </Map>

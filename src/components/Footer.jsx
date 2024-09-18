@@ -12,15 +12,15 @@ import { AiFillTikTok } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="w-full">
-        <div className="bg-gray-200 py-12">
+        <div className="bg-gray-300 py-12">
             <div className="px-8 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 md:gap-4">
             <div className="mb-6">
             <a href="/">
         <Image
           className='pb-2'
-            src="/logo-no-background.png" // Update this path as per your file location
-            width={200}
-            height={200}
+            src="/Images/logo.png" // Update this path as per your file location
+            width={300}
+            height={300}
             alt="logo image"
           />
         </a>
